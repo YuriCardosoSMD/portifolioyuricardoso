@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.cabecalho_menu_links {
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.cabecalho_menu_links li {
+    display: inline-block;
+    padding: 25px 0 25px 0;
+}
+
+.cabecalho_menu_links li:last-child {
+    position: absolute;
+    right: 50px;
+}
+
+.cabecalho_menu_links a {
+    color: white;
+    padding: 0 40px 0 40px;
+    text-decoration: none;
+}
+
+#botao_modo_escuro {
+   display: inline-block;
+}
